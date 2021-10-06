@@ -1,6 +1,6 @@
 <h1 align="center">Web application for managing departments and employees</h1>
 
-##Vision
+## Vision
 
 "Web Application for Managing Departments and Employees"
 is an application that allows you to record 
