@@ -29,7 +29,7 @@ The mode is designed to view the list of department.
 * User selects item “Department”;
 * Application displays list of Department.
 
-![](Department.png)
+![](Department.PNG)
 <br>Pic. 1.1 View the Department list.
 
 The list displays the following columns:
