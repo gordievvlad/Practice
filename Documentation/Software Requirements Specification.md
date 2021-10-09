@@ -33,14 +33,14 @@ Main scenario:
 * User selects item “Products”;
 * Application displays list of Products.
 
-![](Department.PNG)
-<br>Pic. 1.1 View the Department list.
+![](Products.PNG)
+<br>Pic. 1.1 View the products list.
 
 The list displays the following columns:
 * ID – department number;
-* Department - name of the department;
-* Nubmer of employees - number of employees in this department
-* The average salary $ - average salary of all employees of the department
+* Products - name of the products;
+* Nubmer of products - number of products in stock;
+* Price $ - average salary of all employees of the department
 ### 1.2 Add department
 
 Main scenario:
