@@ -28,7 +28,7 @@ in a database;
 ### 1.1 Display list of products
 The mode is designed to view the list of products.
 
-Main scenario:
+<b>Main scenario</b>:
 * User selects item “Products”;
 * Application displays list of Products.
 
@@ -39,10 +39,12 @@ The list displays the following columns:
 * ID – department number;
 * Products - name of the products;
 * Nubmer of products - number of products in stock;
+* Unit of measurement - in what value is our product measured
 * Unit price $ - price per product
+* Product photo - photos of our product
 ### 1.2 Add product
 
-Main scenario:
+<b>Main scenario</b>:
 * Administrator clicks the “Add” button in the 
 products list view mode;
 * Application displays form to enter department 
@@ -58,7 +60,7 @@ displaying(pic. 1.4);
 * If new product record is successfully added,
 then list of products with added records is displaying.
 
-Cancel operation scenario:
+<b>Cancel operation scenario</b>:
 * Administrator clicks the “Add” button in the 
 products list view mode;
 * Application displays form to enter product data;
@@ -72,16 +74,21 @@ database and the corresponding form with updated data
 will be opened.
 
 ![](Add_Product.PNG)
-<br>Pic. 1.2 Add product.
+Pic. 1.2 Add product.
 
-<b>When adding a department, the following details are entered:</b>
-* Name department - name department
-* Add employee - adding department employees(optional field)
+<b>When adding a product, the following 
+details are entered:</b>
+* Products name - name of the products;
+* Nubmer of products - number of products in stock;
+* Unit of measurement - in what value is our product measured
+* Unit price $ - price per product
+* Product photo - photos of our product
 
 
 <b>If the data is entered incorrectly, it will display the corresponding error.</b>
-![](add_error_department.jpg)
-<br>Pic. 2.3 Error when adding.
+![](Errors_Add_Product.PNG)
+Pic. 1.3 Error when adding.
 
 ![](add_error_department1.jpg)
-<br>Pic. 2.4 Error when adding.
+
+Pic. 2.4 Error when adding.
