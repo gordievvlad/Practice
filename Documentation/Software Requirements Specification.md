@@ -53,7 +53,7 @@ data(pic. 1.2);
 * Administrator enters products data and presses 
 “Save” button;
 * If any data is entered incorrectly, incorrect 
-data messages are displayed(pic. 1.3);
+data messages are displayed(pic. 1.2.1);
 * If entered data is valid, then record is adding 
 to database;
 * If new product record is successfully added,
@@ -89,19 +89,19 @@ details are entered:</b>
 
 ![](Errors_Add_Product.PNG)
 
-Pic. 1.3 Error when adding.
+Pic. 1.2.1 Error when adding.
 
-### Edit department
+### 1.3 Edit product
 
 <b>Main scenario:</b>
 * Administrator clicks the “Edit” button in 
 the product list view mode;
 * Application displays form to enter 
-product data (pic. 1.4);
+product data (pic. 1.3);
 * Administrator edit product 
 data and presses “Save” button;
 * If any data is entered incorrectly, 
-incorrect data messages are displayed (pic. 1.5);
+incorrect data messages are displayed (pic. 1.3.1);
 * If entered data is valid, then edited data 
 is added to database;
 * If department record is successfully edited, then 
@@ -122,7 +122,7 @@ form with updated data will be opened.
 
 ![](Edit_Product.PNG)
 
-Pic. 1.4 Edit product.
+Pic. 1.3 Edit product.
 
 <b>When editing a product, the following details 
 are entered:</b>
@@ -137,5 +137,40 @@ display the corresponding error.</b>
 
 ![](Errors_Edit_Production.PNG)
 
-Pic. 1.5 Error when editing.
+Pic. 1.3.1 Error when editing.
+
+### 1.4 Removing the product
+
+<b>Main scenario:</b>
+* Administrator, while in the list of products 
+presses the "Delete" button in the selected product line;
+* If the product can be removed, a confirmation 
+dialog is displayed;
+* In the selected dialog box, you must select
+an operation: "Delete", "Put in 'Sold'", "Put in 
+'Decommissioned'" (pic. 1.4);
+* If the administrator selects the 'Delete' operation, the 
+record is deleted from the database;
+* If the administrator selects the 'Put in "Sold" operation',
+the record is transferred to the database of the 'Sold' section;
+* If the administrator selects the 'Put in "Decommissioned"'
+operation, the record is transferred to the database of 
+the 'Decommissioned' section;
+* If a product record has been successfully deleted, a 
+list of products without deleted records is displayed.
+* If the product record has been successfully moved to the
+"Decommissioned" or "Sold" section, a data field will 
+be added to the desired column;
+
+![](Delete_Product.PNG)
+
+Pic. 1.4 Delete product dialog.
+
+<b>Operation cancellation scenario:</b>
+* The administrator is in the display mode of the list 
+of products and presses the "Delete" button;
+* The application displays a dialog box for selecting the 
+action "What to do with this product?";
+* The administrator presses the ”Cancel" button;
+* The list of products without changes is displayed. 
 
