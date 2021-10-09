@@ -33,7 +33,8 @@ The mode is designed to view the list of products.
 * Application displays list of Products.
 
 ![](Products.PNG)
-<br>Pic. 1.1 View the products list.
+
+Pic. 1.1 View the products list.
 
 The list displays the following columns:
 * ID – department number;
@@ -55,8 +56,6 @@ data(pic. 1.2);
 data messages are displayed(pic. 1.3);
 * If entered data is valid, then record is adding 
 to database;
-* If error occurs, then error message is
-displaying(pic. 1.4);
 * If new product record is successfully added,
 then list of products with added records is displaying.
 
@@ -74,21 +73,69 @@ database and the corresponding form with updated data
 will be opened.
 
 ![](Add_Product.PNG)
+
 Pic. 1.2 Add product.
 
 <b>When adding a product, the following 
 details are entered:</b>
 * Products name - name of the products;
 * Nubmer of products - number of products in stock;
-* Unit of measurement - in what value is our product measured
-* Unit price $ - price per product
-* Product photo - photos of our product
+* Unit of measurement - in what value is our product measured;
+* Unit price $ - price per product;
+* Product photo - photos of our product;
 
 
 <b>If the data is entered incorrectly, it will display the corresponding error.</b>
+
 ![](Errors_Add_Product.PNG)
+
 Pic. 1.3 Error when adding.
 
-![](add_error_department1.jpg)
+### Edit department
 
-Pic. 2.4 Error when adding.
+<b>Main scenario:</b>
+* Administrator clicks the “Edit” button in 
+the product list view mode;
+* Application displays form to enter 
+product data (pic. 1.4);
+* Administrator edit product 
+data and presses “Save” button;
+* If any data is entered incorrectly, 
+incorrect data messages are displayed (pic. 1.5);
+* If entered data is valid, then edited data 
+is added to database;
+* If department record is successfully edited, then 
+list of products with added records is displaying. 
+
+<b>Cancel operation scenario:</b>
+* Administrator clicks the “Edit” button in the 
+product list view mode;
+* Application displays form to enter product data;
+* Administrator enters product data and presses 
+“Cancel” button;
+* Data don’t save in database, then list of 
+product records is displaying to administrator.
+* If the administrator selects the menu 
+item "Products", "Sold" or "Decommissioned", the data 
+will not be saved to the database and the corresponding 
+form with updated data will be opened.
+
+![](Edit_Product.PNG)
+
+Pic. 1.4 Edit product.
+
+<b>When editing a product, the following details 
+are entered:</b>
+* Products name - name of the products;
+* Nubmer of products - number of products in stock;
+* Unit of measurement - in what value is our product measured;
+* Unit price $ - price per product;
+* Product photo - photos of our product;
+
+<b>If the data is entered incorrectly, it will 
+display the corresponding error.</b>
+
+![](Errors_Edit_Production.PNG)
+
+Pic. 1.5 Error when editing.
+
