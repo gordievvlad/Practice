@@ -15,7 +15,6 @@ in a database;
 * Displaying a list of products ;
 * Updating the list of products
 (adding, editing, deleting);
-* Filtering by freshness of products.
 * Display of the list of products sold ;
 * Updating the list of products sold
 (adding, editing, deleting);
@@ -40,15 +39,15 @@ The list displays the following columns:
 * ID – department number;
 * Products - name of the products;
 * Nubmer of products - number of products in stock;
-* Price $ - average salary of all employees of the department
-### 1.2 Add department
+* Unit price $ - price per product
+### 1.2 Add product
 
 Main scenario:
 * Administrator clicks the “Add” button in the 
-department list view mode;
+products list view mode;
 * Application displays form to enter department 
 data(pic. 1.2);
-* Administrator enters department data and presses 
+* Administrator enters products data and presses 
 “Save” button;
 * If any data is entered incorrectly, incorrect 
 data messages are displayed(pic. 1.3);
@@ -56,25 +55,24 @@ data messages are displayed(pic. 1.3);
 to database;
 * If error occurs, then error message is
 displaying(pic. 1.4);
-* If new department record is successfully added,
-then list of departments with added records is displaying.
+* If new product record is successfully added,
+then list of products with added records is displaying.
 
 Cancel operation scenario:
 * Administrator clicks the “Add” button in the 
-department list view mode;
-* Application displays form to enter department data;
-* Administrator enters department data and 
+products list view mode;
+* Application displays form to enter product data;
+* Administrator enters product data and 
 presses “Cancel” button;
-* Data don’t save in data base, then list of 
-departments records is displaying to administrator.
+* Data don’t save in database, then list of 
+products records is displaying to administrator.
 * If the administrator selects the menu item 
-"Department", "Employee", "Positions" or 
-"Specialization", the data will not be saved to the 
+"Products", "Sold" or "Decommissioned", the data will not be saved to the 
 database and the corresponding form with updated data
 will be opened.
 
-![](add_departmentt.jpg)
-<br>Pic. 2.2 Add department.
+![](Add_Product.PNG)
+<br>Pic. 1.2 Add product.
 
 <b>When adding a department, the following details are entered:</b>
 * Name department - name department
