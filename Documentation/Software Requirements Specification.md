@@ -174,3 +174,51 @@ action "What to do with this product?";
 * The administrator presses the ”Cancel" button;
 * The list of products without changes is displayed. 
 
+## 2. Sold
+### 2.1 Display list of Sold
+
+This mode is intended for viewing and editing the sold list
+
+<b>Main scenario:</b>
+* User selects item “Sold”;
+* Application displays list of sold.
+
+![](Main_Sold.PNG)
+
+Pic. 2.1 View the sold list.
+
+<b>The list displays the following columns:</b>
+* ID – unique sold number;
+* Product - name of the products;
+* Number of products - number of products sold;
+* Unit of measurement - in what value is our product measured;
+* Unit price $ - price per product sold;
+* Date of sold - shows the day on which the product was sold;
+* Date of data entry - shows on what day the information 
+was entered into the database;
+* Product photo - photos of our product.
+
+
+<b>Filtering by date:</b>
+* In the sold list view mode, the administrator sets a 
+filter by date and clicks the update list button 
+(to the right of the date input field);
+* The app will only show products during a certain 
+sales period;
+* If an incorrect date range is specified, it displays 
+an error message(pic. 2.1.1).
+* In the current tab, you can also find out the 
+current date and time there ;
+* Also in this tab there is a calculator and a 
+notepad for faster counting and writing, respectively
+
+<b>Restrictions:</b>
+* Start date of the period should be less than end date of the period;
+* If start date is blank, then filtering by end date only.
+* If end date is blank, then filtering by start date only.
+* Updating data after selecting the filtering conditions is carried out by pressing the “Refresh” button.
+
+![](Error_Filtering_Date_Sold.PNG)
+
+Pic. 2.1.1 Incorrect date.
+
