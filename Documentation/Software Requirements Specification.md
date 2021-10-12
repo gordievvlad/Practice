@@ -222,3 +222,85 @@ notepad for faster counting and writing, respectively
 
 Pic. 2.1.1 Incorrect date.
 
+### 2.2 Add sold product
+
+<b>Main scenario:</b>
+* Administrator clicks the “Add” button in the Sold list view mode;
+* Application displays form to enter Sold data(pic. 2.2);
+* Administrator enters Sold data and presses “Save” button;
+* If any data is entered incorrectly, incorrect data messages are displayed(pic. 2.2.1);
+* If entered data is valid, then record is adding to database;
+* If new Sold record is successfully added, then list of Sold with added records is displaying.
+
+<b>Cancel operation scenario:</b>
+* Administrator clicks the “Add” button in the employees list view mode;
+* Application displays form to enter employees data;
+* User enters employees data and presses “Cancel” button;
+* Data don’t save in data base, then list of employees records is displaying to administrator.
+* If the administrator selects the menu item "Department", "Employee", "Positions" or "Specialization", the data will not be saved to the database and the corresponding form with updated data will be opened.
+
+![](Add_Sold_Product.PNG)
+<br>Pic. 3.3 Add sold.
+
+<b>When adding a sold, the following details are entered:</b>
+* Product - name of the products;
+* Number of products - number of products sold;
+* Unit of measurement - in what value is our product measured;
+* Unit price $ - price per product sold;
+* Date of sold - shows the day on which the product was sold;
+* Date of data entry - shows on what day the information 
+was entered into the database;
+* Product photo - photos of our product.
+
+<b>If the data is entered incorrectly, it will 
+display the corresponding error.</b>
+
+![](Errors_Add_Sold.PNG)
+
+Pic. 2.2.1 Error when adding.
+
+### Edit employee
+
+<b>Main scenario:</b>
+* Administrator clicks the “Edit” button in the employee list view mode;
+* Application displays form to enter employee data(pic. 3.6);
+* Administrator enters employees data and presses “Save” button;
+* If any data is entered incorrectly, incorrect data messages are displayed(pic. 3.7);
+* If entered data is valid, then edited data is added to database;
+* If error occurs, then error message is displaying(pic. 3.8);
+* If employees record is successfully edited, then list of employees with added records is displaying.
+
+Cancel operation scenario:
+* Administrator clicks the “Edit” button in the employees list view mode;
+* Application displays form to enter employees data;
+* Administrator enters employee data and presses “Cancel” button;
+* Data don’t save in data base, then list of employees records is displaying to Administrator.
+* If the administrator selects the menu item "Department", "Employee", "Positions" or "Specialization", the data will not be saved to the database and the corresponding form with updated data will be opened.
+
+![](edit_employeee.jpg)
+<br>Pic. 3.6 Edit employee.
+
+<b>If the data is entered incorrectly, it will display the corresponding error.</b>
+![](edit_error_employee.jpg)
+<br>Pic. 3.7 Error when editing.
+
+![](edit_error_employee1.jpg)
+<br>Pic. 3.8 Error when editing.
+### Removing the employee
+
+<b>Main scenario:</b>
+* The administrator, while in the list of employees mode, presses the "Delete" button in the selected client line;
+* Application displays confirmation dialog “Please confirm delete client?”;
+* The administrator confirms the removal of the employee;
+* Record is deleted from database;
+* If employee record is successfully deleted, then list of employees without deleted records is displaying.
+
+![](del_employeee.jpg)
+<br>Pic. 3.9 Delete department dialog.
+
+<b>Cancel operation scenario:</b>
+* Administrator is in display mode of employees list and press “Delete” button;
+* Application displays confirmation dialog “Please confirm delete employee?”;
+* Administrator press “Cancel” button;
+* List of clients without changes is displaying.
+
