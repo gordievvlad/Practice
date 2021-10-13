@@ -308,5 +308,143 @@ Pic. 2.4 Delete sold product dialog.
 * Administrator is in display mode of sold list and press “Delete” button;
 * Application displays confirmation dialog “Please confirm delete product?”;
 * Administrator press “Cancel” button;
-* List of clients without changes is displaying.
+* List of sold product without changes is displaying.
+
+## 3. Decommissioned
+### 3.1 Display list of decommissioned
+
+This mode is intended for viewing and editing the decommissioned list
+
+<b>Main scenario:</b>
+* User selects item “Decommissioned”;
+* Application displays list of decommissioned.
+
+![](Main_Decommisioned.PNG)
+
+Pic. 3.1 View the decommissioned list.
+
+<b>The list displays the following columns:</b>
+* ID – unique decommissioned number;
+* Product - name of the products;
+* Number of products - number of products decommissioned;
+* Unit of measurement - in what value is our product measured;
+* Unit price $ - price per product decommissioned;
+* Date of decommissioned - shows the day on which the product was decommissioned;
+* Date of data entry - shows on what day the information 
+was entered into the database;
+* Product photo - photos of our product.
+
+
+<b>Filtering by date:</b>
+* In the sold list view mode, the administrator sets a 
+filter by date and clicks the update list button 
+(to the right of the date input field);
+* The app will only show products during a certain 
+sales period;
+* If an incorrect date range is specified, it displays 
+an error message(pic. 3.1.1).
+* In the current tab, you can also find out the 
+current date and time there ;
+* Also in this tab there is a calculator and a 
+notepad for faster counting and writing, respectively
+
+<b>Restrictions:</b>
+* Start date of the period should be less than end 
+date of the period;
+* If start date is blank, then filtering by end date only.
+* If end date is blank, then filtering by start date only.
+* Updating data after selecting the filtering 
+conditions is carried out by pressing the “Refresh” button.
+
+![](Error_Filtering_Decommissioned.PNG)
+
+Pic. 3.1.1 Incorrect date.
+
+### 2.2 Add sold product
+
+<b>Main scenario:</b>
+* Administrator clicks the “Add” button in the Sold list view mode;
+* Application displays form to enter Sold data(pic. 2.2);
+* Administrator enters Sold data and presses “Save” button;
+* If any data is entered incorrectly, incorrect data messages are displayed(pic. 2.2.1);
+* If entered data is valid, then record is adding to database;
+* If new Sold record is successfully added, then list of Sold with added records is displaying.
+
+<b>Cancel operation scenario:</b>
+* Administrator clicks the “Add” button in the sold list view mode;
+* Application displays form to enter sold data;
+* User enters employees data and presses “Cancel” button;
+* Data don’t save in database, then list of sold records is displaying to administrator.
+* If the administrator selects the menu item "Department", "Employee", "Positions" or "Specialization", the data will not be saved to the database and the corresponding form with updated data will be opened.
+
+![](Add_Sold_Product.PNG)
+<br>Pic. 2.2 Add sold.
+
+<b>When adding a sold, the following details are entered:</b>
+* Product - name of the products;
+* Number of products - number of products sold;
+* Unit of measurement - in what value is our product measured;
+* Unit price $ - price per product sold;
+* Date of sold - shows the day on which the product was sold;
+* Date of data entry - shows on what day the information 
+was entered into the database;
+* Product photo - photos of our product.
+
+<b>If the data is entered incorrectly, it will 
+display the corresponding error.</b>
+
+![](Errors_Add_Sold.PNG)
+
+Pic. 2.2.1 Error when adding.
+
+### 2.3 Edit sold product
+
+<b>Main scenario:</b>
+* Administrator clicks the “Edit” button in the sold list view mode;
+* Application displays form to enter sold data(pic. 2.3);
+* Administrator enters sold data and presses “Save” button;
+* If any data is entered incorrectly, incorrect data 
+messages are displayed(pic. 2.3.1);
+* If entered data is valid, then edited data is added to database;
+* If sold record is successfully edited, then list of sold 
+with added records is displaying.
+
+Cancel operation scenario:
+* Administrator clicks the “Edit” button in the sold list view mode;
+* Application displays form to enter sold data;
+* Administrator enters sold data and presses “Cancel” button;
+* Data don’t save in database, then list of sold records is 
+displaying to Administrator.
+* If the administrator selects the menu item "Products", 
+"Sold" or "Decommissioned", the data will not be saved to the database and the 
+corresponding form with updated data will be opened.
+
+![](Edit_Sold_Product.PNG)
+
+Pic. 2.3 Edit sold_product.
+
+<b>If the data is entered incorrectly, it will display the corresponding error.</b>
+
+![](Error_Edit_Sold_Product.PNG)
+
+Pic. 2.3.1 Error when editing.
+
+### 2.4 Removing the sold product
+
+<b>Main scenario:</b>
+* The administrator, while in the list of sold mode, presses the "Delete" button in the selected client line;
+* Application displays confirmation dialog “Please confirm delete sold product?”;
+* The administrator confirms the removal of the sold product;
+* Record is deleted from database;
+* If sold product record is successfully deleted, then list of sold without deleted records is displaying.
+
+![](Delete_Sold_Product.PNG)
+
+Pic. 2.4 Delete sold product dialog.
+
+<b>Cancel operation scenario:</b>
+* Administrator is in display mode of sold list and press “Delete” button;
+* Application displays confirmation dialog “Please confirm delete product?”;
+* Administrator press “Cancel” button;
+* List of sold product without changes is displaying.
 
