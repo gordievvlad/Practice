@@ -233,14 +233,14 @@ Pic. 2.1.1 Incorrect date.
 * If new Sold record is successfully added, then list of Sold with added records is displaying.
 
 <b>Cancel operation scenario:</b>
-* Administrator clicks the “Add” button in the employees list view mode;
-* Application displays form to enter employees data;
+* Administrator clicks the “Add” button in the sold list view mode;
+* Application displays form to enter sold data;
 * User enters employees data and presses “Cancel” button;
-* Data don’t save in data base, then list of employees records is displaying to administrator.
+* Data don’t save in database, then list of sold records is displaying to administrator.
 * If the administrator selects the menu item "Department", "Employee", "Positions" or "Specialization", the data will not be saved to the database and the corresponding form with updated data will be opened.
 
 ![](Add_Sold_Product.PNG)
-<br>Pic. 3.3 Add sold.
+<br>Pic. 2.2 Add sold.
 
 <b>When adding a sold, the following details are entered:</b>
 * Product - name of the products;
@@ -259,33 +259,38 @@ display the corresponding error.</b>
 
 Pic. 2.2.1 Error when adding.
 
-### Edit employee
+### 2.3 Edit sold product
 
 <b>Main scenario:</b>
-* Administrator clicks the “Edit” button in the employee list view mode;
-* Application displays form to enter employee data(pic. 3.6);
-* Administrator enters employees data and presses “Save” button;
-* If any data is entered incorrectly, incorrect data messages are displayed(pic. 3.7);
+* Administrator clicks the “Edit” button in the sold list view mode;
+* Application displays form to enter sold data(pic. 2.3);
+* Administrator enters sold data and presses “Save” button;
+* If any data is entered incorrectly, incorrect data 
+messages are displayed(pic. 2.3.1);
 * If entered data is valid, then edited data is added to database;
-* If error occurs, then error message is displaying(pic. 3.8);
-* If employees record is successfully edited, then list of employees with added records is displaying.
+* If sold record is successfully edited, then list of sold 
+with added records is displaying.
 
 Cancel operation scenario:
-* Administrator clicks the “Edit” button in the employees list view mode;
-* Application displays form to enter employees data;
-* Administrator enters employee data and presses “Cancel” button;
-* Data don’t save in data base, then list of employees records is displaying to Administrator.
-* If the administrator selects the menu item "Department", "Employee", "Positions" or "Specialization", the data will not be saved to the database and the corresponding form with updated data will be opened.
+* Administrator clicks the “Edit” button in the sold list view mode;
+* Application displays form to enter sold data;
+* Administrator enters sold data and presses “Cancel” button;
+* Data don’t save in database, then list of sold records is 
+displaying to Administrator.
+* If the administrator selects the menu item "Products", 
+"Sold" or "Decommissioned", the data will not be saved to the database and the 
+corresponding form with updated data will be opened.
 
-![](edit_employeee.jpg)
-<br>Pic. 3.6 Edit employee.
+![](Edit_Sold_Product.PNG)
+
+Pic. 2.3 Edit sold_product.
 
 <b>If the data is entered incorrectly, it will display the corresponding error.</b>
-![](edit_error_employee.jpg)
-<br>Pic. 3.7 Error when editing.
 
-![](edit_error_employee1.jpg)
-<br>Pic. 3.8 Error when editing.
+![](Error_Edit_Sold_Product.PNG)
+
+Pic. 2.3.1 Error when editing.
+
 ### Removing the employee
 
 <b>Main scenario:</b>
