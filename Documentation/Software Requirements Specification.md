@@ -439,7 +439,7 @@ Pic. 3.3.1 Error when editing.
 
 ![](Delete_Decommissioned_Product.PNG)
 
-Pic. 2.4 Delete decommissioned product dialog.
+Pic. 3.4 Delete decommissioned product dialog.
 
 <b>Cancel operation scenario:</b>
 * Administrator is in display mode of decommissioned list and press “Delete” button;
