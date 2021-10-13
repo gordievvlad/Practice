@@ -226,28 +226,29 @@ Pic. 2.1.1 Incorrect date.
 
 <b>Main scenario:</b>
 * Administrator clicks the “Add” button in the Sold list view mode;
-* Application displays form to enter Sold data(pic. 2.2);
+* Application displays form to enter Sold data(pic. 3.2);
 * Administrator enters Sold data and presses “Save” button;
-* If any data is entered incorrectly, incorrect data messages are displayed(pic. 2.2.1);
+* If any data is entered incorrectly, incorrect data messages are displayed(pic. 3.2.1);
 * If entered data is valid, then record is adding to database;
 * If new Sold record is successfully added, then list of Sold with added records is displaying.
 
 <b>Cancel operation scenario:</b>
 * Administrator clicks the “Add” button in the sold list view mode;
 * Application displays form to enter sold data;
-* User enters employees data and presses “Cancel” button;
+* User enters sold data and presses “Cancel” button;
 * Data don’t save in database, then list of sold records is displaying to administrator.
 * If the administrator selects the menu item "Department", "Employee", "Positions" or "Specialization", the data will not be saved to the database and the corresponding form with updated data will be opened.
 
-![](Add_Sold_Product.PNG)
-<br>Pic. 2.2 Add sold.
+![](Add_Decommissioned_Product.PNG)
 
-<b>When adding a sold, the following details are entered:</b>
+Pic. 3.2 Add decommissioned.
+
+<b>When adding a decommissioned, the following details are entered:</b>
 * Product - name of the products;
-* Number of products - number of products sold;
+* Number of products - number of products decommissioned;
 * Unit of measurement - in what value is our product measured;
-* Unit price $ - price per product sold;
-* Date of sold - shows the day on which the product was sold;
+* Unit price $ - price per product decommissioned;
+* Date of decommissioned - shows the day on which the product was decommissioned;
 * Date of data entry - shows on what day the information 
 was entered into the database;
 * Product photo - photos of our product.
@@ -255,9 +256,9 @@ was entered into the database;
 <b>If the data is entered incorrectly, it will 
 display the corresponding error.</b>
 
-![](Errors_Add_Sold.PNG)
+![](Error_Add_Decommissioned.PNG)
 
-Pic. 2.2.1 Error when adding.
+Pic. 3.2.1 Error when adding.
 
 ### 2.3 Edit sold product
 
@@ -360,21 +361,22 @@ conditions is carried out by pressing the “Refresh” button.
 
 Pic. 3.1.1 Incorrect date.
 
-### 2.2 Add sold product
+### 2.2 Add decommissioned product
 
 <b>Main scenario:</b>
-* Administrator clicks the “Add” button in the Sold list view mode;
-* Application displays form to enter Sold data(pic. 2.2);
-* Administrator enters Sold data and presses “Save” button;
+* Administrator clicks the “Add” button in the decommissioned list view mode;
+* Application displays form to enter decommissioned data(pic. 3.2);
+* Administrator enters decommissioned data and presses “Save” button;
 * If any data is entered incorrectly, incorrect data messages are displayed(pic. 2.2.1);
 * If entered data is valid, then record is adding to database;
-* If new Sold record is successfully added, then list of Sold with added records is displaying.
+* If new decommissioned record is successfully added,
+then list of decommissioned with added records is displaying.
 
 <b>Cancel operation scenario:</b>
-* Administrator clicks the “Add” button in the sold list view mode;
-* Application displays form to enter sold data;
-* User enters employees data and presses “Cancel” button;
-* Data don’t save in database, then list of sold records is displaying to administrator.
+* Administrator clicks the “Add” button in the decommissioned list view mode;
+* Application displays form to enter decommissioned data;
+* User enters decommissioned data and presses “Cancel” button;
+* Data don’t save in database, then list of decommissioned records is displaying to administrator.
 * If the administrator selects the menu item "Department", "Employee", "Positions" or "Specialization", the data will not be saved to the database and the corresponding form with updated data will be opened.
 
 ![](Add_Sold_Product.PNG)
