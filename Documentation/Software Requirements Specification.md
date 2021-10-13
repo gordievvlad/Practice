@@ -291,21 +291,22 @@ Pic. 2.3 Edit sold_product.
 
 Pic. 2.3.1 Error when editing.
 
-### Removing the employee
+### 2.4 Removing the sold product
 
 <b>Main scenario:</b>
-* The administrator, while in the list of employees mode, presses the "Delete" button in the selected client line;
-* Application displays confirmation dialog “Please confirm delete client?”;
-* The administrator confirms the removal of the employee;
+* The administrator, while in the list of sold mode, presses the "Delete" button in the selected client line;
+* Application displays confirmation dialog “Please confirm delete sold product?”;
+* The administrator confirms the removal of the sold product;
 * Record is deleted from database;
-* If employee record is successfully deleted, then list of employees without deleted records is displaying.
+* If sold product record is successfully deleted, then list of sold without deleted records is displaying.
 
-![](del_employeee.jpg)
-<br>Pic. 3.9 Delete department dialog.
+![](Delete_Sold_Product.PNG)
+
+Pic. 2.4 Delete sold product dialog.
 
 <b>Cancel operation scenario:</b>
-* Administrator is in display mode of employees list and press “Delete” button;
-* Application displays confirmation dialog “Please confirm delete employee?”;
+* Administrator is in display mode of sold list and press “Delete” button;
+* Application displays confirmation dialog “Please confirm delete product?”;
 * Administrator press “Cancel” button;
 * List of clients without changes is displaying.
 
