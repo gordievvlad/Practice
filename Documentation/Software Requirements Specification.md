@@ -396,7 +396,7 @@ display the corresponding error.</b>
 
 Pic. 3.2.1 Error when adding.
 
-### 3.3 Edit sold product
+### 3.3 Edit decommissioned product
 
 <b>Main scenario:</b>
 * Administrator clicks the “Edit” button in the decommissioned list view mode;
@@ -427,4 +427,23 @@ Pic. 3.3 Edit decommissioned product.
 ![](Error_Edit_Decommissioned.PNG)
 
 Pic. 3.3.1 Error when editing.
+
+### 3.4 Removing the decommissioned product
+
+<b>Main scenario:</b>
+* The administrator, while in the list of decommissioned mode, presses the "Delete" button in the selected client line;
+* Application displays confirmation dialog “Please confirm delete decommissioned product?”;
+* The administrator confirms the removal of the decommissioned product;
+* Record is deleted from database;
+* If sold product record is successfully deleted, then list of sold without deleted records is displaying.
+
+![](Delete_Decommissioned_Product.PNG)
+
+Pic. 2.4 Delete decommissioned product dialog.
+
+<b>Cancel operation scenario:</b>
+* Administrator is in display mode of decommissioned list and press “Delete” button;
+* Application displays confirmation dialog “Please confirm delete product?”;
+* Administrator press “Cancel” button;
+* List of decommissioned product without changes is displaying.
 
