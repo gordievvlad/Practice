@@ -333,7 +333,7 @@ we will exit the viewing mode.
 
 ![](Open_History_Shipment.PNG)
 
-Pic. 2.2 Open the delivery structure.
+Pic. 2.3 Open the delivery structure.
 
 <b>When selecting the delivery number, the following 
 information is selected:</b>
@@ -361,140 +361,50 @@ Pic. 2.4 Delete history dialog.
 * Administrator press “Cancel” button;
 * List of history delivery without changes is displaying.
 
-## 3. Decommissioned
-### 3.1 Display list of Decommissioned
+## 3. Clients
+### 3.1 Display list of clients
 
-This mode is intended for viewing and editing the decommissioned list
+This mode is intended for viewing the clients list
+
 <b>Main scenario:</b>
-* User selects item “Decommissioned”;
-* Application displays list of decommissioned.
+* User selects item “Clients”;
+* Application displays list of clients.
 
-![](Main_Decommisioned.PNG)
+![](Main_Clients.PNG)
 
-Pic. 3.1 View the decommissioned list.
+Pic. 3.1 View the clients list.
 
 <b>The list displays the following columns:</b>
-* ID – unique decommissioned number;
-* Product - name of the products;
-* Number of products - number of products decommissioned;
-* Unit of measurement - in what value is our product measured;
-* Unit price $ - price per product decommissioned;
-* Date of decommissioned - shows the day on which the product was decommissioned;
-* Date of data entry - shows on what day the information 
-was entered into the database;
-* Product photo - photos of our product.
+* Clients – client's name;
+* Number of products - the number of products the clients has;
+* Price $ - the price of all delivery or shipment.
 
 
-<b>Filtering by date:</b>
-* In the decommissioned list view mode, the administrator sets a 
-filter by date and clicks the update list button 
-(to the right of the date input field);
-* The app will only show products during a certain 
-sales period;
-* If an incorrect date range is specified, it displays 
-an error message(pic. 3.1.1).
-* In the current tab, you can also find out the 
-current date and time there ;
-* Also in this tab there is a calculator and a 
-notepad for faster counting and writing, respectively
+### 3.2 More about clients
 
-<b>Restrictions:</b>
-* Start date of the period should be less than end date of the period;
-* If start date is blank, then filtering by end date only.
-* If end date is blank, then filtering by start date only.
-* Updating data after selecting the filtering conditions is carried out by pressing the “Refresh” button.
+<b>Main scenario</b>:
+* Administrator clicks the “More about clients” 
+button in the clients list view mode;
+* Application displays form to choose client's name  
+(pic. 3.2);
+* Administrator enters client's name;
+* A list of the clients with detailed 
+information about it is displayed.
 
-![](Error_Filtering_Decommissioned.PNG)
+<b>Cancel operation scenario</b>:
+* Administrator clicks the “More about clients” 
+button in the clients list view mode;
+* Application displays form to choose client's name; 
+* Administrator enters client's name;
+* If the administrator selects the menu item "Storekeeper", 
+"History", "Clients","Warehouses" or "Goods" , 
+we will exit the viewing mode.
 
-Pic. 3.1.1 Incorrect date.
+![](More_Clients.PNG)
 
-### 3.2 Add decommissioned product
+Pic. 3.2 Open more about clients.
 
-<b>Main scenario:</b>
-* Administrator clicks the “Add” button in the decommissioned list view mode;
-* Application displays form to enter decommissioned data(pic. 3.2);
-* Administrator enters Sold data and presses “Save” button;
-* If any data is entered incorrectly, incorrect data messages are displayed(pic. 3.2.1);
-* If entered data is valid, then record is adding to database;
-* If new decommissioned record is successfully added, then list of Sold with added records is displaying.
-
-<b>Cancel operation scenario:</b>
-* Administrator clicks the “Add” button in the decommissioned list view mode;
-* Application displays form to enter decommissioned data;
-* User enters employees data and presses “Cancel” button;
-* Data don’t save in database, then list of decommissioned records is displaying to administrator.
-* If the administrator selects the menu item "Department", "Employee", "Positions" or "Specialization", 
-the data will not be saved to the database and the corresponding form with updated data will be opened.
-
-![](Add_Decommissioned_Product.PNG)
-
-Pic. 3.2 Add decommissioned product.
-
-<b>When adding a decommissioned, the following details are entered:</b>
-* Product - name of the products;
-* Number of products - number of products decommissioned;
-* Unit of measurement - in what value is our product measured;
-* Unit price $ - price per product decommissioned;
-* Date of decommissioned - shows the day on which the product was decommissioned;
-* Date of data entry - shows on what day the information 
-was entered into the database;
-* Product photo - photos of our product.
-
-<b>If the data is entered incorrectly, it will 
-display the corresponding error.</b>
-
-![](Error_Add_Decommissioned.PNG)
-
-Pic. 3.2.1 Error when adding.
-
-### 3.3 Edit decommissioned product
-
-<b>Main scenario:</b>
-* Administrator clicks the “Edit” button in the decommissioned list view mode;
-* Application displays form to enter decommissioned data(pic. 3.3);
-* Administrator enters decommissioned data and presses “Save” button;
-* If any data is entered incorrectly, incorrect data 
-messages are displayed(pic. 3.3.1);
-* If entered data is valid, then edited data is added to database;
-* If sold record is successfully edited, then list of decommissioned 
-with added records is displaying.
-
-Cancel operation scenario:
-* Administrator clicks the “Edit” button in the decommissioned list view mode;
-* Application displays form to enter decommissioned data;
-* Administrator enters sold data and presses “Cancel” button;
-* Data don’t save in database, then list of decommissioned records is 
-displaying to Administrator.
-* If the administrator selects the menu item "Products", 
-"Sold" or "Decommissioned", the data will not be saved to the database and the 
-corresponding form with updated data will be opened.
-
-![](Edit_Decommissioned.PNG)
-
-Pic. 3.3 Edit decommissioned product.
-
-<b>If the data is entered incorrectly, it will display the corresponding error.</b>
-
-![](Error_Edit_Decommissioned.PNG)
-
-Pic. 3.3.1 Error when editing.
-
-### 3.4 Removing the decommissioned product
-
-<b>Main scenario:</b>
-* The administrator, while in the list of decommissioned mode, presses the "Delete" button in the selected client line;
-* Application displays confirmation dialog “Please confirm delete decommissioned product?”;
-* The administrator confirms the removal of the decommissioned product;
-* Record is deleted from database;
-* If sold product record is successfully deleted, then list of sold without deleted records is displaying.
-
-![](Delete_Decommissioned_Product.PNG)
-
-Pic. 3.4 Delete decommissioned product dialog.
-
-<b>Cancel operation scenario:</b>
-* Administrator is in display mode of decommissioned list and press “Delete” button;
-* Application displays confirmation dialog “Please confirm delete product?”;
-* Administrator press “Cancel” button;
-* List of decommissioned product without changes is displaying.
+<b>When selecting the client's name, the following 
+information is selected:</b>
+* Clients - client's name.
 
