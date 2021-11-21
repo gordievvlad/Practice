@@ -49,11 +49,11 @@ Pic. 1.1 View the storekeeper list.
 The list displays the following columns:
 * Products - name of the products;
 * Nubmer of products - products not distributed to warehouses;
-* Unit of measurement - in what value is our product measured
-* Unit price $ - price per product
-* Price $ - price for all products
-* Clients - organizations that have provided products for storage
-* Product photo - photos of our product
+* Unit of measurement - in what value is our product measured;
+* Unit price $ - price per product;
+* Price $ - price for all products;
+* Clients - organizations that have provided products for storage;
+* Product photo - photos of our product.
 ### 1.2 Arrange the delivery of the goods
 
 <b>Main scenario</b>:
@@ -90,11 +90,11 @@ details are entered:</b>
 * Date of delivery - date and time of delivery;
 * Products - name of the products;
 * Nubmer of products - products not distributed to warehouses;
-* Unit of measurement - in what value is our product measured
-* Unit price $ - price per product
-* Price $ - price for all products
-* Clients - organizations that have provided products for storage
-* Product photo - photos of our product
+* Unit of measurement - in what value is our product measured;
+* Unit price $ - price per product;
+* Price $ - price for all products;
+* Clients - organizations that have provided products for storage;
+* Product photo - photos of our product.
 
 
 <b>If the data is entered incorrectly, it will display the corresponding error.</b>
@@ -103,88 +103,137 @@ details are entered:</b>
 
 Pic. 1.2.1 Error when arrange delivery.
 
-### 1.3 Edit product
+### 1.3 Arrange the shipment of products
 
-<b>Main scenario:</b>
-* Administrator clicks the “Edit” button in 
-the product list view mode;
-* Application displays form to enter 
-product data (pic. 1.3);
-* Administrator edit product 
-data and presses “Save” button;
-* If any data is entered incorrectly, 
-incorrect data messages are displayed (pic. 1.3.1);
-* If entered data is valid, then edited data 
-is added to database;
-* If department record is successfully edited, then 
-list of products with added records is displaying. 
+<b>Main scenario</b>:
+* Administrator clicks the “Arrange the shipment of products” 
+button in the storekeeper list view mode;
+* Application displays form to enter shipment 
+data(pic. 1.3);
+* Administrator enters shipment data and presses 
+“Arrange the shipment of products” button;
+* If any data is entered incorrectly, incorrect 
+data messages are displayed(pic. 1.3.1);
+* If entered data is valid, then record is adding 
+to database;
+* If new shipment record is successfully added,
+then list of storekeeper with added records is displaying.
 
-<b>Cancel operation scenario:</b>
-* Administrator clicks the “Edit” button in the 
-product list view mode;
-* Application displays form to enter product data;
-* Administrator enters product data and presses 
-“Cancel” button;
+<b>Cancel operation scenario</b>:
+* Administrator clicks the “Arrange the shipment of products”
+button in the storekeeper list view mode;
+* Application displays form to enter shipment 
+data;
+* Administrator enters delivery data and 
+presses “Cancel” button;
 * Data don’t save in database, then list of 
-product records is displaying to administrator.
-* If the administrator selects the menu 
-item "Products", "Sold" or "Decommissioned", the data 
-will not be saved to the database and the corresponding 
-form with updated data will be opened.
+storekeeper records is displaying to administrator.
 
-![](Edit_Product.PNG)
+![](Arrange_Shipment_Goods.PNG)
 
-Pic. 1.3 Edit product.
+Pic. 1.3 Arrange the shipment of the goods.
 
-<b>When editing a product, the following details 
-are entered:</b>
-* Products name - name of the products;
-* Nubmer of products - number of products in stock;
+<b>When arrange the shipment, the following 
+details are entered:</b>
+* Date of shipment - date and time of delivery;
+* Reason - reason for shipment;
+* Products - name of the products;
+* Nubmer of products - products not distributed to warehouses;
 * Unit of measurement - in what value is our product measured;
 * Unit price $ - price per product;
+* Price $ - price for all products;
+* Clients - organizations that have provided products for storage;
+* Product photo - photos of our product.
+
+
+<b>If the data is entered incorrectly, it will display the corresponding error.</b>
+
+![](Errors_Arrange_Shipment_Goods.PNG)
+
+Pic. 1.3.1 Error when arrange shipment.
+
+### 1.4 Distribute products to warehouses
+
+<b>Main scenario</b>:
+* Administrator clicks the “Distribute products to warehouses” 
+button in the storekeeper list view mode;
+* Application displays form to enter distribute 
+data(pic. 1.4);
+* Administrator enters distribute data and presses 
+“Distribute products to warehouses” button;
+* If entered data is valid, then record is adding 
+to database;
+* If new distribute record is successfully added,
+then list of storekeeper, warehouses, clients and goods
+with added records is displaying.
+
+<b>Cancel operation scenario</b>:
+* Administrator clicks the “Distribute products to warehouses”
+button in the storekeeper list view mode;
+* Application displays form to enter distribute 
+data;
+* Administrator enters distribute data and 
+presses “Cancel” button;
+* Data don’t save in database, then list of 
+storekeeper, warehouses, clients and goods records is 
+displaying to administrator.
+
+![](Distribute_Products_Warehouses.PNG)
+
+Pic. 1.4 Distribute products to warehouses.
+
+<b>When distribute products, the following 
+details is selected:</b>
+* Products - name of the products;
+* Nubmer of products - products not distributed to warehouses;
+* Unit of measurement - in what value is our product measured;
+* Unit price $ - price per product;
+* Price $ - price for all products;
+* Clients - organizations that have provided products for storage;
 * Product photo - photos of our product;
+* Warehouses - which warehouse should the products be distributed to.
 
-<b>If the data is entered incorrectly, it will 
-display the corresponding error.</b>
+### 1.5 Get products from the warehouse
 
-![](Errors_Edit_Production.PNG)
+<b>Main scenario</b>:
+* Administrator clicks the “Get products from the warehouse” 
+button in the storekeeper list view mode;
+* Application displays form to enter withdrawal 
+data(pic. 1.5);
+* Administrator enters withdrawal data and presses 
+“Get products from the warehouse” button;
+* If entered data is valid, then record is adding 
+to database;
+* If new withdrawal record is successfully added,
+then list of storekeeper, warehouses, clients and goods
+with added records is displaying.
 
-Pic. 1.3.1 Error when editing.
+<b>Cancel operation scenario</b>:
+* Administrator clicks the “Get products from the warehouse”
+button in the storekeeper list view mode;
+* Application displays form to enter withdrawal 
+data;
+* Administrator enters withdrawal data and 
+presses “Cancel” button;
+* Data don’t save in database, then list of 
+storekeeper, warehouses, clients and goods records is 
+displaying to administrator.
 
-### 1.4 Removing the product
+![](Withdrawal_Products_Warehouses.PNG)
 
-<b>Main scenario:</b>
-* Administrator, while in the list of products 
-presses the "Delete" button in the selected product line;
-* If the product can be removed, a confirmation 
-dialog is displayed;
-* In the selected dialog box, you must select
-an operation: "Delete", "Put in 'Sold'", "Put in 
-'Decommissioned'" (pic. 1.4);
-* If the administrator selects the 'Delete' operation, the 
-record is deleted from the database;
-* If the administrator selects the 'Put in "Sold" operation',
-the record is transferred to the database of the 'Sold' section;
-* If the administrator selects the 'Put in "Decommissioned"'
-operation, the record is transferred to the database of 
-the 'Decommissioned' section;
-* If a product record has been successfully deleted, a 
-list of products without deleted records is displayed.
-* If the product record has been successfully moved to the
-"Decommissioned" or "Sold" section, a data field will 
-be added to the desired column;
+Pic. 1.5 Distribute products to warehouses.
 
-![](Delete_Product.PNG)
+<b>When distribute products, the following 
+details is selected:</b>
+* Products - name of the products;
+* Nubmer of products - products not distributed to warehouses;
+* Unit of measurement - in what value is our product measured;
+* Unit price $ - price per product;
+* Price $ - price for all products;
+* Clients - organizations that have provided products for storage;
+* Product photo - photos of our product;
+* Warehouses - from which warehouse to withdrawal products.
 
-Pic. 1.4 Delete product dialog.
-
-<b>Operation cancellation scenario:</b>
-* The administrator is in the display mode of the list 
-of products and presses the "Delete" button;
-* The application displays a dialog box for selecting the 
-action "What to do with this product?";
-* The administrator presses the ”Cancel" button;
-* The list of products without changes is displayed. 
 
 ## 2. Sold
 ### 2.1 Display list of Sold
