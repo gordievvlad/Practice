@@ -29,77 +29,79 @@ in a database;
 * Display of the list of delivery product ;
 * Updating the list of shipment product
 (adding, deleting);
- Updating the list of delivery product
+* Updating the list of delivery product
 (adding, deleting);
 * Filtering by date of delivery;
 * Filtering by date of shipment.
 
-## 1. Products
-### 1.1 Display list of products
-The mode is designed to view the list of products.
+## 1. Storekeeper
+### 1.1 Display list of Storekeeper
+The mode is designed to view the list of Storekeeper.
 
 <b>Main scenario</b>:
-* User selects item “Products”;
-* Application displays list of Products.
+* User selects item “Storekeeper”;
+* Application displays list of Storekeeper.
 
-![](Products.PNG)
+![](Main_Storekeeper.PNG)
 
-Pic. 1.1 View the products list.
+Pic. 1.1 View the storekeeper list.
 
 The list displays the following columns:
-* ID – department number;
 * Products - name of the products;
-* Nubmer of products - number of products in stock;
+* Nubmer of products - products not distributed to warehouses;
 * Unit of measurement - in what value is our product measured
 * Unit price $ - price per product
+* Price $ - price for all products
+* Clients - organizations that have provided products for storage
 * Product photo - photos of our product
-### 1.2 Add product
+### 1.2 Arrange the delivery of the goods
 
 <b>Main scenario</b>:
-* Administrator clicks the “Add” button in the 
-products list view mode;
-* Application displays form to enter department 
+* Administrator clicks the “Arrange the delivery of the 
+goods” button in the storekeeper list view mode;
+* Application displays form to enter delivery 
 data(pic. 1.2);
-* Administrator enters products data and presses 
-“Save” button;
+* Administrator enters delivery data and presses 
+“Arrange the delivery of the 
+goods” button;
 * If any data is entered incorrectly, incorrect 
 data messages are displayed(pic. 1.2.1);
 * If entered data is valid, then record is adding 
 to database;
-* If new product record is successfully added,
-then list of products with added records is displaying.
+* If new delivery record is successfully added,
+then list of storekeeper with added records is displaying.
 
 <b>Cancel operation scenario</b>:
-* Administrator clicks the “Add” button in the 
-products list view mode;
-* Application displays form to enter product data;
-* Administrator enters product data and 
+* Administrator clicks the “Arrange the delivery of the 
+goods” button in the storekeeper list view mode;
+* Application displays form to enter delivery 
+data;
+* Administrator enters delivery data and 
 presses “Cancel” button;
 * Data don’t save in database, then list of 
-products records is displaying to administrator.
-* If the administrator selects the menu item 
-"Products", "Sold" or "Decommissioned", the data will not be saved to the 
-database and the corresponding form with updated data
-will be opened.
+storekeeper records is displaying to administrator.
 
-![](Add_Product.PNG)
+![](Arrange_Delivery_Goods.PNG)
 
-Pic. 1.2 Add product.
+Pic. 1.2 Arrange the delivery of the goods.
 
-<b>When adding a product, the following 
+<b>When arrange the delivery, the following 
 details are entered:</b>
-* Products name - name of the products;
-* Nubmer of products - number of products in stock;
-* Unit of measurement - in what value is our product measured;
-* Unit price $ - price per product;
-* Product photo - photos of our product;
+* Date of delivery - date and time of delivery;
+* Products - name of the products;
+* Nubmer of products - products not distributed to warehouses;
+* Unit of measurement - in what value is our product measured
+* Unit price $ - price per product
+* Price $ - price for all products
+* Clients - organizations that have provided products for storage
+* Product photo - photos of our product
 
 
 <b>If the data is entered incorrectly, it will display the corresponding error.</b>
 
-![](Errors_Add_Product.PNG)
+![](Errors_Arrange_Delivery.PNG)
 
-Pic. 1.2.1 Error when adding.
+Pic. 1.2.1 Error when arrange delivery.
 
 ### 1.3 Edit product
 
