@@ -221,7 +221,7 @@ displaying to administrator.
 
 ![](Withdrawal_Products_Warehouses.PNG)
 
-Pic. 1.5 Distribute products to warehouses.
+Pic. 1.5 Withdrawal products from warehouses.
 
 <b>When distribute products, the following 
 details is selected:</b>
@@ -235,37 +235,32 @@ details is selected:</b>
 * Warehouses - from which warehouse to withdrawal products.
 
 
-## 2. Sold
-### 2.1 Display list of Sold
+## 2. History
+### 2.1 Display list of history
 
-This mode is intended for viewing and editing the sold list
+This mode is intended for viewing and editing the history list
 
 <b>Main scenario:</b>
-* User selects item “Sold”;
-* Application displays list of sold.
+* User selects item “History”;
+* Application displays list of history.
 
-![](Main_Sold.PNG)
+![](Main_History.PNG)
 
-Pic. 2.1 View the sold list.
+Pic. 2.1 View the history list.
 
 <b>The list displays the following columns:</b>
-* ID – unique sold number;
-* Product - name of the products;
-* Number of products - number of products sold;
-* Unit of measurement - in what value is our product measured;
-* Unit price $ - price per product sold;
-* Date of sold - shows the day on which the product was sold;
-* Date of data entry - shows on what day the information 
-was entered into the database;
-* Product photo - photos of our product.
+* ID delivery – unique delivery or shipment number;
+* Number of products - number of products delivery or shipment;
+* Price $ - the price of all delivery or shipment;
+* Date of delivery - shows the day on which the product was delivery;
 
 
 <b>Filtering by date:</b>
-* In the sold list view mode, the administrator sets a 
+* In the history list view mode, the administrator sets a 
 filter by date and clicks the update list button 
 (to the right of the date input field);
 * The app will only show products during a certain 
-sales period;
+delivery or shipment period;
 * If an incorrect date range is specified, it displays 
 an error message(pic. 2.1.1).
 * In the current tab, you can also find out the 
@@ -277,99 +272,94 @@ notepad for faster counting and writing, respectively
 * Start date of the period should be less than end date of the period;
 * If start date is blank, then filtering by end date only.
 * If end date is blank, then filtering by start date only.
-* Updating data after selecting the filtering conditions is carried out by pressing the “Refresh” button.
+* Updating data after selecting the filtering conditions 
+is carried out by pressing the “Refresh” button.
 
-![](Error_Filtering_Date_Sold.PNG)
+![](Errors_Filtering_History.PNG)
 
 Pic. 2.1.1 Incorrect date.
 
-### 2.2 Add sold product
+### 2.2 Open the delivery structure
+
+<b>Main scenario</b>:
+* Administrator clicks the “Open the delivery structure” 
+button in the history list view mode;
+* Application displays form to choose code delivery  
+(pic. 2.2);
+* Administrator enters code delivery and presses "refresh"
+button;
+* A list of the delivery history with detailed 
+information about it is displayed.
+
+<b>Cancel operation scenario</b>:
+* Administrator clicks the “Open the delivery structure” 
+button in the history list view mode;
+* Application displays form to choose code delivery;
+* Administrator enters code delivery and presses "refresh"
+button;
+* If the administrator selects the menu item "Storekeeper", 
+"History", "Clients","Warehouses" or "Goods" , 
+we will exit the viewing mode.
+
+![](Open_History_Delivery.PNG)
+
+Pic. 2.2 Open the delivery structure.
+
+<b>When selecting the delivery number, the following 
+information is selected:</b>
+* Code of delivery - product delivery number.
+
+### 2.3 Open the shipment structure
+
+<b>Main scenario</b>:
+* Administrator clicks the “Open the shipment structure” 
+button in the history list view mode;
+* Application displays form to choose code shipment  
+(pic. 2.3);
+* Administrator enters code shipment and presses "refresh"
+button;
+* A list of the shipment history with detailed 
+information about it is displayed.
+
+<b>Cancel operation scenario</b>:
+* Administrator clicks the “Open the shipment structure” 
+button in the history list view mode;
+* Application displays form to choose code shipment;
+* Administrator enters code shipment and presses "refresh"
+button;
+* If the administrator selects the menu item "Storekeeper", 
+"History", "Clients","Warehouses" or "Goods" , 
+we will exit the viewing mode.
+
+![](Open_History_Shipment.PNG)
+
+Pic. 2.2 Open the delivery structure.
+
+<b>When selecting the delivery number, the following 
+information is selected:</b>
+* Code of delivery - product delivery number.
+
+### 2.4 Removing History
 
 <b>Main scenario:</b>
-* Administrator clicks the “Add” button in the Sold list view mode;
-* Application displays form to enter Sold data(pic. 2.2);
-* Administrator enters Sold data and presses “Save” button;
-* If any data is entered incorrectly, incorrect data messages are displayed(pic. 2.2.1);
-* If entered data is valid, then record is adding to database;
-* If new Sold record is successfully added, then list of Sold with added records is displaying.
-
-<b>Cancel operation scenario:</b>
-* Administrator clicks the “Add” button in the sold list view mode;
-* Application displays form to enter sold data;
-* User enters employees data and presses “Cancel” button;
-* Data don’t save in database, then list of sold records is displaying to administrator.
-* If the administrator selects the menu item "Department", "Employee", "Positions" or "Specialization", the data will not be saved to the database and the corresponding form with updated data will be opened.
-
-![](Add_Sold_Product.PNG)
-<br>Pic. 2.2 Add sold.
-
-<b>When adding a sold, the following details are entered:</b>
-* Product - name of the products;
-* Number of products - number of products sold;
-* Unit of measurement - in what value is our product measured;
-* Unit price $ - price per product sold;
-* Date of sold - shows the day on which the product was sold;
-* Date of data entry - shows on what day the information 
-was entered into the database;
-* Product photo - photos of our product.
-
-<b>If the data is entered incorrectly, it will 
-display the corresponding error.</b>
-
-![](Errors_Add_Sold.PNG)
-
-Pic. 2.2.1 Error when adding.
-
-### 2.3 Edit sold product
-
-<b>Main scenario:</b>
-* Administrator clicks the “Edit” button in the sold list view mode;
-* Application displays form to enter sold data(pic. 2.3);
-* Administrator enters sold data and presses “Save” button;
-* If any data is entered incorrectly, incorrect data 
-messages are displayed(pic. 2.3.1);
-* If entered data is valid, then edited data is added to database;
-* If sold record is successfully edited, then list of sold 
-with added records is displaying.
-
-Cancel operation scenario:
-* Administrator clicks the “Edit” button in the sold list view mode;
-* Application displays form to enter sold data;
-* Administrator enters sold data and presses “Cancel” button;
-* Data don’t save in database, then list of sold records is 
-displaying to Administrator.
-* If the administrator selects the menu item "Products", 
-"Sold" or "Decommissioned", the data will not be saved to the database and the 
-corresponding form with updated data will be opened.
-
-![](Edit_Sold_Product.PNG)
-
-Pic. 2.3 Edit sold_product.
-
-<b>If the data is entered incorrectly, it will display the corresponding error.</b>
-
-![](Error_Edit_Sold_Product.PNG)
-
-Pic. 2.3.1 Error when editing.
-
-### 2.4 Removing the sold product
-
-<b>Main scenario:</b>
-* The administrator, while in the list of sold mode, presses the "Delete" button in the selected client line;
-* Application displays confirmation dialog “Please confirm delete sold product?”;
-* The administrator confirms the removal of the sold product;
+* The administrator, being in the history mode of the list 
+of deliveries or shipments, presses the "Delete" button in the 
+selected history line;
+* Application displays confirmation dialog “What to do with this Delivery?”;
+* The administrator confirms the removal of the history delivery or shipment;
 * Record is deleted from database;
-* If sold product record is successfully deleted, then list of sold without deleted records is displaying.
+* If history record is successfully deleted, then list 
+of history without deleted records is displaying.
 
-![](Delete_Sold_Product.PNG)
+![](Delete_History.PNG)
 
-Pic. 2.4 Delete sold product dialog.
+Pic. 2.4 Delete history dialog.
 
 <b>Cancel operation scenario:</b>
-* Administrator is in display mode of sold list and press “Delete” button;
-* Application displays confirmation dialog “Please confirm delete product?”;
+* Administrator is in display mode of history list and press “Delete” button;
+* Application displays confirmation dialog “What to do with this Delivery?”;
 * Administrator press “Cancel” button;
-* List of sold product without changes is displaying.
+* List of history delivery without changes is displaying.
 
 ## 3. Decommissioned
 ### 3.1 Display list of Decommissioned
