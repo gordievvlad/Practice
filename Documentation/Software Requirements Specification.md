@@ -377,7 +377,7 @@ Pic. 3.1 View the clients list.
 <b>The list displays the following columns:</b>
 * Clients – client's name;
 * Number of products - the number of products the clients has;
-* Price $ - the price of all delivery or shipment.
+* Price $ - the price of all clients.
 
 
 ### 3.2 More about clients
@@ -407,4 +407,52 @@ Pic. 3.2 Open more about clients.
 <b>When selecting the client's name, the following 
 information is selected:</b>
 * Clients - client's name.
+
+
+## 4. Warehouses
+### 4.1 Display list of Warehouses
+
+This mode is intended for viewing the warehouses list
+
+<b>Main scenario:</b>
+* User selects item “Warehouses”;
+* Application displays list of warehouses.
+
+![](Main_Warehouses.PNG)
+
+Pic. 4.1 View the warehouses list.
+
+<b>The list displays the following columns:</b>
+* Warehouse – name of the warehouse;
+* Number of products - the number of products the warehouse has;
+* Price $ - the price of all warehouse.
+
+
+### 4.2 More about warehouses
+
+<b>Main scenario</b>:
+* Administrator clicks the “More about warehouses” 
+button in the warehouses list view mode;
+* Application displays form to choose name of the warehouses  
+(pic. 4.2);
+* Administrator enters name of the warehouses;
+* A list of the warehouses with detailed 
+information about it is displayed.
+
+<b>Cancel operation scenario</b>:
+* Administrator clicks the “More about warehouses” 
+button in the warehouses list view mode;
+* Application displays form to choose name of the warehouses;
+* Administrator enters name of the warehouses;
+* If the administrator selects the menu item "Storekeeper", 
+"History", "Clients","Warehouses" or "Goods" , 
+we will exit the viewing mode.
+
+![](More_Warehouses.PNG)
+
+Pic. 4.2 Open more about warehouses.
+
+<b>When selecting the name of the warehouses, the following 
+information is selected:</b>
+* Warehouse - name of the warehouses.
 
