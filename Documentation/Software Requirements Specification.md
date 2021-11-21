@@ -456,3 +456,23 @@ Pic. 4.2 Open more about warehouses.
 information is selected:</b>
 * Warehouse - name of the warehouses.
 
+## 5. Goods
+### 5.1 Display list of goods
+
+This mode is intended for viewing the goods list
+
+<b>Main scenario:</b>
+* User selects item “Goods”;
+* Application displays list of goods.
+
+![](Main_Goods.PNG)
+
+Pic. 5.1 View the goods list.
+
+<b>The list displays the following columns:</b>
+* Products - name of the products;
+* Nubmer of products - quantity of products in all warehouses;
+* Unit of measurement - in what value is our product measured;
+* Unit price $ - price per product;
+* Price $ - price for all products;
+* Product photo - photos of our product.
