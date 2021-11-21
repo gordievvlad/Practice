@@ -1,9 +1,9 @@
-<h1 align="center">Web application for accounting of goods in the warehouse of the enterprise</h1>
+<h1 align="center">Web application for accounting of goods in warehouse</h1>
 
 ## Vision
 
 "Web application for accounting of goods in 
-the warehouse of the enterprise"
+warehouse"
 is an application that allows you to record
 information about goods that are stored 
 in warehouses of enterprises.
@@ -12,17 +12,27 @@ Application should provide:
 
 * Storing a list of products
 in a database;
+* Storing a list of warehouses
+in a database;
+* Storing a list of clients
+in a database;
 * Displaying a list of products ;
+* Displaying a list of clients ;
+* Displaying a list of warehouses ;
 * Updating the list of products
-(adding, editing, deleting);
-* Display of the list of products sold ;
-* Updating the list of products sold
-(adding, editing, deleting);
-* Filtering by date of sale;
-* Display of the list of decommissioned goods ;
-* Updating the list of decommissioned goods
-(adding, editing, deleting);
-* Filtering by the date of debiting;
+(adding, deleting);
+* Updating the list of clients
+(adding, deleting);
+* Updating the list of warehouses
+(adding, deleting);
+* Display of the list of shipment product ;
+* Display of the list of delivery product ;
+* Updating the list of shipment product
+(adding, deleting);
+ Updating the list of delivery product
+(adding, deleting);
+* Filtering by date of delivery;
+* Filtering by date of shipment.
 
 ## 1. Products
 ### 1.1 Display list of products
