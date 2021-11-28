@@ -42,7 +42,7 @@ The mode is designed to view the list of Storekeeper.
 * User selects item “Storekeeper”;
 * Application displays list of Storekeeper.
 
-![](Main_Storekeeper.PNG)
+![](Img/Main_Storekeeper.PNG)
 
 Pic. 1.1 View the storekeeper list.
 
@@ -61,11 +61,13 @@ The list displays the following columns:
 goods” button in the storekeeper list view mode;
 * Application displays form to enter delivery 
 data(pic. 1.2);
+* Administrator can add a customer(pic. 1.2.1) and a 
+product type(pic. 1.2.2);
 * Administrator enters delivery data and presses 
 “Arrange the delivery of the 
 goods” button;
 * If any data is entered incorrectly, incorrect 
-data messages are displayed(pic. 1.2.1);
+data messages are displayed(pic. 1.2.3);
 * If entered data is valid, then record is adding 
 to database;
 * If new delivery record is successfully added,
@@ -81,7 +83,7 @@ presses “Cancel” button;
 * Data don’t save in database, then list of 
 storekeeper records is displaying to administrator.
 
-![](Arrange_Delivery_Goods.PNG)
+![](Img/Arrange_Delivery_Goods.PNG)
 
 Pic. 1.2 Arrange the delivery of the goods.
 
@@ -92,16 +94,26 @@ details are entered:</b>
 * Nubmer of products - products not distributed to warehouses;
 * Unit of measurement - in what value is our product measured;
 * Unit price $ - price per product;
-* Price $ - price for all products;
 * Clients - organizations that have provided products for storage;
 * Product photo - photos of our product.
 
+<b>If there is no necessary client here, you can add it yourself.</b>
+
+![](Img/Add_clients.PNG)
+
+Pic. 1.2.2 Add product type.
+
+<b>If there is no necessary type of product, then you can add it yourself.</b>
+
+![](Img/Add_Product_Type.PNG)
+
+Pic. 1.2.2 Add client.
 
 <b>If the data is entered incorrectly, it will display the corresponding error.</b>
 
-![](Errors_Arrange_Delivery.PNG)
+![](Img/Erorrs_Arrange_Delivery.PNG)
 
-Pic. 1.2.1 Error when arrange delivery.
+Pic. 1.2.3 Error when arrange delivery.
 
 ### 1.3 Arrange the shipment of products
 
@@ -129,7 +141,7 @@ presses “Cancel” button;
 * Data don’t save in database, then list of 
 storekeeper records is displaying to administrator.
 
-![](Arrange_Shipment_Goods.PNG)
+![](Img/Arrange_Shipment_Goods.PNG)
 
 Pic. 1.3 Arrange the shipment of the goods.
 
@@ -148,7 +160,7 @@ details are entered:</b>
 
 <b>If the data is entered incorrectly, it will display the corresponding error.</b>
 
-![](Errors_Arrange_Shipment_Goods.PNG)
+![](Img/Errors_Arrange_Shipment.PNG)
 
 Pic. 1.3.1 Error when arrange shipment.
 
@@ -178,7 +190,7 @@ presses “Cancel” button;
 storekeeper, warehouses, clients and goods records is 
 displaying to administrator.
 
-![](Distribute_Products_Warehouses.PNG)
+![](Img/Distribure_Products_TO_Warehouses.PNG)
 
 Pic. 1.4 Distribute products to warehouses.
 
@@ -192,6 +204,12 @@ details is selected:</b>
 * Clients - organizations that have provided products for storage;
 * Product photo - photos of our product;
 * Warehouses - which warehouse should the products be distributed to.
+
+<b>If there is no necessary warehouse here, you can add it yourself.</b>
+
+![](Img/Add_Warehouse.PNG)
+
+Pic. 1.4.1 Add warehouse.
 
 ### 1.5 Get products from the warehouse
 
@@ -219,7 +237,7 @@ presses “Cancel” button;
 storekeeper, warehouses, clients and goods records is 
 displaying to administrator.
 
-![](Withdrawal_Products_Warehouses.PNG)
+![](Img/Withdrawal_Products_Warehouses.PNG)
 
 Pic. 1.5 Withdrawal products from warehouses.
 
@@ -244,7 +262,7 @@ This mode is intended for viewing and editing the history list
 * User selects item “History”;
 * Application displays list of history.
 
-![](Main_History.PNG)
+![](Img/Main_History.PNG)
 
 Pic. 2.1 View the history list.
 
@@ -275,7 +293,7 @@ notepad for faster counting and writing, respectively
 * Updating data after selecting the filtering conditions 
 is carried out by pressing the “Refresh” button.
 
-![](Errors_Filtering_History.PNG)
+![](Img/Errors_Filtering_History.PNG)
 
 Pic. 2.1.1 Incorrect date.
 
@@ -301,7 +319,7 @@ button;
 "History", "Clients","Warehouses" or "Goods" , 
 we will exit the viewing mode.
 
-![](Open_History_Delivery.PNG)
+![](Img/Open_History_Delivery.PNG)
 
 Pic. 2.2 Open the delivery structure.
 
@@ -331,7 +349,7 @@ button;
 "History", "Clients","Warehouses" or "Goods" , 
 we will exit the viewing mode.
 
-![](Open_History_Shipment.PNG)
+![](Img/Open_History_Shipment.PNG)
 
 Pic. 2.3 Open the delivery structure.
 
@@ -351,7 +369,7 @@ selected history line;
 * If history record is successfully deleted, then list 
 of history without deleted records is displaying.
 
-![](Delete_History.PNG)
+![](Img/Delete_History.PNG)
 
 Pic. 2.4 Delete history dialog.
 
@@ -370,14 +388,15 @@ This mode is intended for viewing the clients list
 * User selects item “Clients”;
 * Application displays list of clients.
 
-![](Main_Clients.PNG)
+![](Img/Main_Clients.PNG)
 
 Pic. 3.1 View the clients list.
 
 <b>The list displays the following columns:</b>
 * Clients – client's name;
 * Number of products - the number of products the clients has;
-* Price $ - the price of all clients.
+* Price $ - the price of all clients;
+* Phone number - сommunication with the client.
 
 
 ### 3.2 More about clients
@@ -400,13 +419,76 @@ button in the clients list view mode;
 "History", "Clients","Warehouses" or "Goods" , 
 we will exit the viewing mode.
 
-![](More_Clients.PNG)
+![](Img/More_About_Clients.PNG)
 
 Pic. 3.2 Open more about clients.
 
 <b>When selecting the client's name, the following 
 information is selected:</b>
 * Clients - client's name.
+
+### 3.3 Add client
+
+<b>Main scenario</b>:
+* Administrator clicks the “Add client” 
+button in the clients list view mode;
+* Application displays form to enter client's name  
+(pic. 3.3);
+* Administrator enters client's name;
+* A list of the clients with information about it is displayed.
+
+<b>Cancel operation scenario</b>:
+* Administrator clicks the “Add client” 
+button in the clients list view mode;
+* Application displays form to enter client's name; 
+* Administrator enters client's name;
+* If the administrator selects the menu item "Storekeeper", 
+"History", "Clients","Warehouses" or "Goods" , 
+we will exit the viewing mode.
+
+![](Img/Add_clients.PNG)
+
+Pic. 3.3 Add client.
+
+<b>When selecting the client's name, the following 
+information is selected:</b>
+* Clients - client's name;
+* Phone number - сommunication with the client.
+
+### 3.4 Removing client
+
+<b>Main scenario:</b>
+* The administrator, being in the clients mode of the list 
+of clients, presses the "Delete client" button;
+* Application displays form to choose client's name ;
+* Administrator should click the "update" 
+button, which will display the number of products 
+this customer has;
+* Administrator confirms the removal of client;
+* Record is deleted from database;
+* If history record is successfully deleted, then list 
+of clients with deleted records is displaying.
+
+![](Img/Delete_Clients.PNG)
+
+Pic. 3.4 Delete clients.
+
+<b>Cancel operation scenario:</b>
+* The administrator, being in the clients mode of the list 
+of clients, presses the "Delete client" button;
+* Application displays form to choose client's name ;
+* The administrator should click the "update" 
+button, which will display the number of products 
+this customer has;
+* Administrator press “Cancel” button;
+* List of clients without changes is displaying.
+
+<b>If the administrator tries to delete a client who still 
+has a product, it will display the corresponding error.</b>
+
+![](Img/Errors_Delete_Clients.PNG)
+
+Pic. 3.4.1 Errors delete clients.
 
 
 ## 4. Warehouses
@@ -418,12 +500,13 @@ This mode is intended for viewing the warehouses list
 * User selects item “Warehouses”;
 * Application displays list of warehouses.
 
-![](Main_Warehouses.PNG)
+![](Img/Main_Warehouse.PNG)
 
 Pic. 4.1 View the warehouses list.
 
 <b>The list displays the following columns:</b>
 * Warehouse – name of the warehouse;
+* Adress - warehouse location
 * Number of products - the number of products the warehouse has;
 * Price $ - the price of all warehouse.
 
@@ -448,13 +531,77 @@ button in the warehouses list view mode;
 "History", "Clients","Warehouses" or "Goods" , 
 we will exit the viewing mode.
 
-![](More_Warehouses.PNG)
+![](Img/More_Warehouses.PNG)
 
 Pic. 4.2 Open more about warehouses.
 
 <b>When selecting the name of the warehouses, the following 
 information is selected:</b>
 * Warehouse - name of the warehouses.
+
+### 4.3 Add warehouse
+
+<b>Main scenario</b>:
+* Administrator clicks the “Add warehouse” 
+button in the warehouse list view mode;
+* Application displays form to enter warehouse name  
+(pic. 4.3);
+* Administrator enters warehouse name;
+* A list of the warehouse with information about it is displayed.
+
+<b>Cancel operation scenario</b>:
+* Administrator clicks the “Add warehouse” 
+button in the warehouse list view mode;
+* Application displays form to enter warehouse name; 
+* Administrator enters warehouse name;
+* If the administrator selects the menu item "Storekeeper", 
+"History", "Clients","Warehouses" or "Goods" , 
+we will exit the viewing mode.
+
+![](Img/Add_Warehouse.PNG)
+
+Pic. 4.3 Add warehouse.
+
+<b>When selecting the warehouse name, the following 
+information is selected:</b>
+* Name of the warehouse - warehouse name;
+* Adress - warehouse location.
+
+### 4.4 Removing warehouse
+
+<b>Main scenario:</b>
+* The administrator, being in the warehouse mode of the list 
+of warehouse, presses the "Delete warehouse" button;
+* Application displays form to choose warehouse name;
+* Administrator must click the "Update"
+button, which will display the number of products
+available in this warehouse;
+* The administrator confirms the removal of warehouse;
+* Record is deleted from database;
+* If history record is successfully deleted, then list 
+of warehouses with deleted records is displaying.
+
+![](Img/Delete_Warehouse.PNG)
+
+Pic. 4.4 Delete warehouse.
+
+<b>Cancel operation scenario:</b>
+* The administrator, being in the warehouse mode of the list 
+of warehouse, presses the "Delete warehouse" button;
+* Application displays form to choose warehouse name;
+* Administrator must click the "Update"
+button, which will display the number of products
+available in this warehouse;
+* Administrator press “Cancel” button;
+* List of warehouses without changes is displaying.
+
+<b>If the administrator tries to delete a warehouse that 
+still has there is a product, it will display the 
+corresponding error.</b>
+
+![](Img/Errors_Delete_Warehouse.PNG)
+
+Pic. 4.4.1 Errors delete clients.
 
 ## 5. Goods
 ### 5.1 Display list of goods
@@ -465,14 +612,77 @@ This mode is intended for viewing the goods list
 * User selects item “Goods”;
 * Application displays list of goods.
 
-![](Main_Goods.PNG)
+![](Img/Main_Goods.PNG)
 
 Pic. 5.1 View the goods list.
 
 <b>The list displays the following columns:</b>
 * Products - name of the products;
-* Nubmer of products - quantity of products in all warehouses;
 * Unit of measurement - in what value is our product measured;
 * Unit price $ - price per product;
-* Price $ - price for all products;
 * Product photo - photos of our product.
+
+### 5.2 Add goods
+
+<b>Main scenario</b>:
+* Administrator clicks the “Add goods” 
+button in the goods list view mode;
+* Application displays form to enter goods data  
+(pic. 4.3);
+* Administrator enters goods data;
+* A list of the goods with information about it is displayed.
+
+<b>Cancel operation scenario</b>:
+* Administrator clicks the “Add goods” 
+button in the goods list view mode;
+* Application displays form to enter goods data; 
+* Administrator enters goods data;
+* If the administrator selects the menu item "Storekeeper", 
+"History", "Clients","Warehouses" or "Goods" , 
+we will exit the viewing mode.
+
+![](Img/Add_Product_Type.PNG)
+
+Pic. 5.2 Add goods.
+
+<b>When selecting goods the following 
+information is selected:</b>
+* Products - name of the products;
+* Unit of measurement - in what value is our product measured;
+* Unit price $ - price per product;
+* Product photo - photos of our product.
+
+### 5.3 Removing goods
+
+<b>Main scenario:</b>
+* The administrator, being in the goods mode of the list 
+of goods, presses the "Delete goods" button;
+* Application displays form to choose goods name;
+* Administrator must click the "Update"
+button, which will display the number of products
+available;
+* The administrator confirms the removal of goods;
+* Record is deleted from database;
+* If history record is successfully deleted, then list 
+of goods with deleted records is displaying.
+
+![](Img/Delete_Goods.PNG)
+
+Pic. 5.3 Delete goods.
+
+<b>Cancel operation scenario:</b>
+* The administrator, being in the goods mode of the list 
+of goods, presses the "Delete goods" button;
+* Application displays form to choose goods name;
+* Administrator must click the "Update"
+button, which will display the number of products
+available;
+* Administrator press “Cancel” button;
+* List of goods without changes is displaying.
+
+<b>If the administrator tries to delete an item that is 
+still in use, he will display the corresponding error.</b>
+
+![](Img/Errors_Delete_Goods.PNG)
+
+Pic. 5.3.1 Errors delete goods.
