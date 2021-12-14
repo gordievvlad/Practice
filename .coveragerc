@@ -1,2 +1,2 @@
 [run]
-omit = */migrations/*,*/settings.py,*/urls.py,*/wsgi.py,*/asgi.py,warehouse/manage.py,warehouse/setup.py
+omit = */migrations/*
