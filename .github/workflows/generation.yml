@@ -24,6 +24,6 @@ jobs:
       - name: Coveralls
         run: |
           coverage run --source=warehouse warehouse/manage.py test warehouse_app
-          covetalls --service=github
+          coveralls --service=github
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
